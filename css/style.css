@@ -1,0 +1,85 @@
+nav {
+    background-color: #000000;
+    font-family: Roboto, sans-serif;
+    color: #ffffff;
+    
+}
+body {
+  background-color:#ffffff;
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #000000;
+}
+footer {
+    background-color: #000000;
+    font-family: Roboto, sans-serif;
+    color: #ffffff
+}
+
+h1 {
+  font-size: 2.75em;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 2.25em;
+  font-weight: 700;
+}
+
+h3 {
+  font-size: 1.75em;
+  font-weight: 400;
+}
+
+h4 {
+  font-size: 1.35em;
+  font-weight: 400;
+}
+
+.button.contact {
+  background-color: #e02401;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.button.contact:hover {
+  background-color: #51050f;
+  color: #ffffff;
+}
+
+.button.subhound {
+  background-color: #e02401;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.button.streetfoodies:hover {
+  background-color: #51050f;
+  color: #ffffff;
+}
+.button.resume {
+  background-color:#000000;
+  border: none;
+  color: #ffffff;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+
+ }
+    .button.resume:hover {
+  background-color: #504f50;
+  color: #ffffff;
+}  

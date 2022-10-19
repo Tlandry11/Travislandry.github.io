@@ -4,17 +4,56 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta name="Travis Landry" content="Travis Landry">
     <meta name="Made by Trav" content="Made by Trav, a UI/UX design portfolio">
-    <title>Travis Landry UX/UI Designer Milwaukee,WI</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Travis Landry</title>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
+		<!-- add your style.css file below that's in the css directory -->
+    <link rel="stylesheet" type="text/css" href="css/style.css"> 
+      <link rel="preconnect" href="https://fonts.googleapis.com"> 
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500;900&display=swap" rel="stylesheet">
+<style>
+      .button {
+  display: inline-block; /* since the <a> tag is inline by default, we need to change this to inline-block, but more on this in the next exercise */
+  background-color: #000000;
+  color: #ffffff; /* needed to override the default link color */
+  font-weight: 400;
+  padding: 10px;
+  border-radius: 3px;
+  border-bottom: 2px solid #504f50; /* width of the border, type, color */
+  transition: 0.2s opacity
+}
+    .button:hover {
+  opacity: 0.8; /* Reduces the opacity of the button to 80% */
+  text-decoration: none;
+    }
+  .button.contact {
+  background-color: transparent;
+  color: #ffffff;
+  text-transform: uppercase;
+  border: 2px solid #ffffff;
+    }
+    .button.contact:hover {
+  background-color: #ffffff;
+  color: #000000;
+    }
+    
+    
+       img {
+  width: 100%;
+} 
+      </style>
   </head>
   <body>
     <!-- For the header -->
     <header>
       <!-- For the navigation -->
       <div>
+          <nav>
           <a href="index.html"></a>
-        <img src="img/made-by-trav.png" alt="Made by Trav" width="350px">
-        <nav>
-          <a href="#my-work">Work</a>
+        <img src="img/made-by-trav.png" alt="Made by Trav" width="100px">
+          <a href="index.html#my-work">Work</a>
           <a href="about-travis-landry-new.html">About</a>
           <a href="#contact">Contact</a>
         </nav>
@@ -52,7 +91,9 @@
               <!-- open paragraph --> There are many bills and subscriptions users will pay weekly, monthly, or annually, whether its for entertainment, personal, or business related. This app was designed for iOS and Android to oragnize and manage bill and subscriptions.
             </p>
             <!-- end paragraph -->
-            <a href="subhound-project.html">Read more</a>
+
+              <a href="subhound-project.html" class="button">Learn More</a>
+
             <!-- button or link label -->
           </div>
           <!-- end second column -->
@@ -76,7 +117,7 @@
               <!-- open paragraph --> Street Foodies is the app that will allow foodies (user) who want to experience delicious foods order via mobile device without the hustle and bustle and delivered it right to their doorstep or job.
             </p>
             <!-- end paragraph -->
-            <a href="">Read more</a>
+<a href="streetfoodies-project.html" class="button">Learn More</a>
             <!-- button or link label -->
           </div>
           <!-- end second column -->
@@ -87,25 +128,13 @@
     <!-- For the footer  -->
     <footer id="contact">
       <h2>Lets Connect</h2>
-      <p> <p>Interested in starting a new project, send me an email!</p>
-        <a href="mailto:travisplandry29@gmail.com"> Email me</a>
-      <div>
-        <a href="mailto:travisplandry29@gmail.com" target="_blank">Email me</a>
-      </div>
+     <p>Interested in starting a new project, send me an email!</p>
+        <a href="mailto:travisplandry29@gmail.com" class="button contact">Email me</a>
       <div>
         <!--Social Media Layout and Placeholders-->
-        <a href="LINKEDIN-URL" target="_blank">
-          <img src="https://via.placeholder.com/32x32">
-        </a>
-        <a href="TWITTER-URL" target="_blank">
-          <img src="https://via.placeholder.com/32x32">
-        </a>
-        <a href="ANOTHER-SOCIAL-LINK">
-          <img src="https://via.placeholder.com/32x32">
-        </a>
-        <a href="ANOTHER-SOCIAL-LINK">
-          <img src="https://via.placeholder.com/32x32">
-        </a>
+        <a href="https://www.instagram.com/made.bytrav/" target="_blank"><img src="img/Instagram.png" style="width: 50px; height: 50px"></a>
+          <a href="https://www.behance.net/travislandry" target="_blank"><img src="img/Behance.png" style="width: 50px; height: 50px"></a>
+          <a href="https://www.linkedin.com/in/travis-landry-2664b61a1/" target="_blank"><img src="img/Linkedin.png" style="width: 50px; height: 50px"></a>
       </div>
       <p>Copyright Travis Landry 2020</p>
     </footer>

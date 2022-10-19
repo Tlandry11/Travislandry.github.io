@@ -2,7 +2,9 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>About Travis Landry</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>About</title>
     <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="img/favicon//favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="img/favicon//favicon-16x16.png">
@@ -10,27 +12,47 @@
     <link rel="mask-icon" href="img/favicon//safari-pinned-tab.svg" color="#5bbad5">
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
+    
+      <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
+		<!-- add your style.css file below that's in the css directory -->
+    <link rel="stylesheet" type="text/css" href="css/style.css"> 
+      <link rel="preconnect" href="https://fonts.googleapis.com"> 
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500;900&display=swap" rel="stylesheet">
+<style>
+     .button.contact {
+  background-color: transparent;
+  color: #ffffff;
+  text-transform: uppercase;
+  border: 2px solid #ffffff;
+    }
+    .button.contact:hover {
+  background-color: #ffffff;
+  color: #000000;
+}   
+
+   img {
+  width: 100%;
+}   
+    
+</style>
+      
+      
+   
+      
   </head>
   <body>
     <!-- Start of Body tag -->
     <header>
       <!-- Header -->
       <div>
+          <nav>
         <a href="index.html">
-          <img src="img/made-by-trav.png" width="350px" alt="Made by Trav">
-        </a>
-        <nav>
-          <ul>
-            <li>
+          <img src="img/made-by-trav.png" width="100px" alt="Made by Trav">
               <a href="index.html">Work</a>
-            </li>
-            <li>
               <a href="about-travis-landry-new.html">About</a>
-            </li>
-            <li>
-              <a href="#contact">Contact</a>
-            </li>
-          </ul>
+                <a href="#contact">Contact</a>
+              </a>
         </nav>
       </div>
     </header>
@@ -103,6 +125,9 @@
               <li>DTG Printer</li>
               <li>Screen Printing Press</li>
             </ul>
+              <h2>Here is a link to my resume</h2>
+              <a href="files/graphic-design-resume-interactive.pdf" class="button resume">
+                  My Resume</a>
           </div>
         </div>
       </div>
@@ -113,11 +138,14 @@
         <!-- Contact Info -->
         <h2>Let's Connect</h2>
         <p>Interested in starting a new project, send me an email!</p>
-        <a href="mailto:travisplandry29@gmail.com"> Email me</a>
+        <a href="mailto:travisplandry29@gmail.com" class="button contact"> Email me</a>
       </div>
       <!-- Content-info-end-->
       <div>
         <!-- Socials -->
+          <a href="https://www.instagram.com/made.bytrav/" target="_blank"><img src="img/Instagram.png" style="width: 50px; height: 50px"></a>
+          <a href="https://www.behance.net/travislandry" target="_blank"><img src="img/Behance.png" style="width: 50px; height: 50px"></a>
+          <a href="https://www.linkedin.com/in/travis-landry-2664b61a1/" target="_blank"><img src="img/Linkedin.png" style="width: 50px; height: 50px"></a>
       </div>
       <!-- Socials -->
     </footer>
