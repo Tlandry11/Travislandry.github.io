@@ -53,20 +53,21 @@ h4 {
   color: #000000;
 }
 
-.button.subhound {
-  background-color: #e02401;
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
+.button {
+  display: inline-block; /* since the <a> tag is inline by default, we need to change this to inline-block, but more on this in the next exercise */
+  background-color: #000000;
+  color: #ffffff; /* needed to override the default link color */
+  font-weight: 400;
+  padding: 10px;
+  border-radius: 3px;
+  border-bottom: 2px solid #504f50; /* width of the border, type, color */
+  transition: 0.2s opacity;
+}
+.button:hover {
+  opacity: 0.8; /* Reduces the opacity of the button to 80% */
   text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
 }
 
-.button.streetfoodies:hover {
-  background-color: #51050f;
-  color: #ffffff;
 }
 .button.resume {
   background-color:#000000;
