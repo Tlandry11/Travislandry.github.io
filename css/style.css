@@ -38,9 +38,9 @@ h4 {
 }
 
 .button.contact {
-  background-color: #e02401;
-  border: none;
-  color: white;
+  background-color: white;
+  border: white;
+  color: #000000;
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
@@ -49,8 +49,8 @@ h4 {
 }
 
 .button.contact:hover {
-  background-color: #51050f;
-  color: #ffffff;
+  background-color: #504f50;
+  color: #000000;
 }
 
 .button.subhound {
@@ -83,3 +83,6 @@ h4 {
   background-color: #504f50;
   color: #ffffff;
 }  
+img {
+  width: 100%;
+} 

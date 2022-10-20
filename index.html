@@ -13,37 +13,7 @@
       <link rel="preconnect" href="https://fonts.googleapis.com"> 
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
 <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500;900&display=swap" rel="stylesheet">
-<style>
-      .button {
-  display: inline-block; /* since the <a> tag is inline by default, we need to change this to inline-block, but more on this in the next exercise */
-  background-color: #000000;
-  color: #ffffff; /* needed to override the default link color */
-  font-weight: 400;
-  padding: 10px;
-  border-radius: 3px;
-  border-bottom: 2px solid #504f50; /* width of the border, type, color */
-  transition: 0.2s opacity
-}
-    .button:hover {
-  opacity: 0.8; /* Reduces the opacity of the button to 80% */
-  text-decoration: none;
-    }
-  .button.contact {
-  background-color: transparent;
-  color: #ffffff;
-  text-transform: uppercase;
-  border: 2px solid #ffffff;
-    }
-    .button.contact:hover {
-  background-color: #ffffff;
-  color: #000000;
-    }
-    
-    
-       img {
-  width: 100%;
-} 
-      </style>
+
   </head>
   <body>
     <!-- For the header -->
@@ -53,9 +23,11 @@
           <nav>
           <a href="index.html"></a>
         <img src="img/made-by-trav.png" alt="Made by Trav" width="100px">
-          <a href="index.html#my-work">Work</a>
-          <a href="about-travis-landry-new.html">About</a>
-          <a href="#contact">Contact</a>
+          <ul>
+              <li><a href="index.html#my-work">Work</a></li>
+              <li><a href="about-travis-landry-new.html">About</a></li>
+              <li><a href="#contact">Contact</a></li>
+              </ul>
         </nav>
         </div>
       </header>
