@@ -1,15 +1,12 @@
 * {
   box-sizing: border-box;
 }
+@media only screen and (min-width: 640px) {
+
 header {
-background-color: #ff44c4;
-padding: 10px;
-margin: 10px;
-padding-top: 10px;
-padding-right: 5px;
-padding-bottom: 15px;
-padding-left: 5px;
-text-align: center;
+background-color: #000000;
+text-align: unset;
+padding: 20px 0 13px;
 }
 nav> ul > li > a {
 font-family: Roboto, sans-serif;
@@ -29,7 +26,7 @@ main {
 body {
   background-color:#ffffff;
   font-family: Roboto, sans-serif;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 1.6;
   color: #000000;
 }
@@ -39,8 +36,10 @@ footer {
     color: #ffffff
 }
 
-#hero {
+#hero span {
   background-color: #ffe4c4;
+    text-align: center;
+    display: block;
 }
 #hero h1 {
   margin: 0;
@@ -126,3 +125,60 @@ h4 {
 img {
   width: 100%;
 } 
+/* ==============================
+Medium devices (640px and larger)
+================================= */
+@media only screen and (min-width: 640px) {
+}
+/* ==============================
+Large devices (1024px or larger)
+================================= */
+@media only screen and (min-width: 1024px) {
+}
+/* ==============================
+X-large devices (1440px or larger)
+================================= */
+@media only screen and (min-width: 1440px) {
+}
+/* ==============================
+Extra-large devices (1920px or larger)
+================================= */
+@media only screen and (min-width: 1920px) {
+}
+/* ==============================
+Medium devices (640px and larger)
+================================= */
+@keyframes color-change {
+  from {fill: #edc655;}
+  to {fill: #f76414;}
+}
+@keyframes color-change {
+  0% {fill: #edc655;}
+  50% {fill: #fcffad;}
+  100% {fill: #f76414;}
+}
+.sun {
+  animation-duration: 4s;
+  animation-name: color-change;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: linear;
+}
+@keyframes cloud-move {
+  from {transform: translate(0,50px);}
+  to {transform: translate(200px,50px);}
+}
+.cloud-front {
+  animation-duration: 30s;
+  animation-name: cloud-move;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: linear;
+}
+@keyframes cloud-move-reverse {
+  from {transform: translate(446px,48px);}
+  to {transform: translate(100px, 48px);}
+}
+.cloud-back {
+  animation: 34s cloud-move-reverse infinite alternate linear;
+}
