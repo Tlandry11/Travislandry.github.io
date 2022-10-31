@@ -5,7 +5,8 @@
 header {
 background-color: #000000;
 text-align: unset;
-padding: 20px 0 13px;
+padding: 35px;
+
 }
 nav> ul > li > a {
 font-family: Roboto, sans-serif;
@@ -17,6 +18,7 @@ color: #ffffff;
 }
 nav > ul > li {
   display: inline-block;
+    float: right;
 }
 main {
   padding-top: 133px;
@@ -124,6 +126,9 @@ h4 {
 img {
   width: 100%;
 } 
+.col-md-6 {
+  width: 50%;
+}
 /* ==============================
 Medium devices (640px and larger)
 ================================= */
