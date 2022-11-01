@@ -18,7 +18,6 @@ color: #ffffff;
 }
 nav > ul > li {
   display: inline-block;
-    float: right;
 }
 main {
   padding-top: 133px;
@@ -107,7 +106,6 @@ h4 {
   text-decoration: none;
 }
 
-}
 .button.resume {
   background-color:#000000;
   border: none;
@@ -126,23 +124,61 @@ h4 {
 img {
   width: 100%;
 } 
-.col-md-6 {
-  width: 50%;
+.logo {
+    width: 500px;
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
 }
 /* ==============================
 Medium devices (640px and larger)
 ================================= */
 @media only screen and (min-width: 640px) {
+    [class*="col-"] {
+  float: left;
+    padding: 10px;
+}
+.col-md-6 {
+  width: 50%;
+    }
+    .logo {
+    width: 350px;
+ }
+    header {
+    text-align: unset;
+    padding: 20px 0 13px;
+  }
+
+  nav {
+    width: auto;
+    float: right;
+    margin-top: 4px;
+  }
+    
 }
 /* ==============================
 Large devices (1024px or larger)
 ================================= */
 @media only screen and (min-width: 1024px) {
+    .container {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.col-lg-5 {
+  width: 40%;
+    }
+    .col-lg-7 {
+  width: 60%;
+    }
 }
 /* ==============================
 X-large devices (1440px or larger)
 ================================= */
 @media only screen and (min-width: 1440px) {
+    
 }
 /* ==============================
 Extra-large devices (1920px or larger)
@@ -155,9 +191,6 @@ Medium devices (640px and larger)
 @keyframes color-change {
   from {fill: #edc655;}
   to {fill: #f76414;}
-}
-{
-@media only screen and (min-width: 640px)  
 }
  
 @keyframes color-change {
