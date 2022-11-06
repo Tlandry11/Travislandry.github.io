@@ -11,12 +11,15 @@
     <link rel="stylesheet" type="text/css" href="css/style.css"> 
      <link rel="preconnect" href="https://fonts.googleapis.com"> 
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
-<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500;900&display=swap" rel="stylesheet">  </head>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500;900&display=swap" rel="stylesheet"> 
+      <i class="fas fa-bars"></i>
+    </head>
   <body>
     <!-- For the header -->
      <header>
       <!-- For the navigation -->
       <div class="container">
+          <div class="navtoggle" id="myNavtoggle">
     <a href="index.html">
 
     <img src="img/made-by-trav.png" alt="Made by Trav" class="logo"></a>
@@ -26,10 +29,12 @@
               <li><a href="index.html#my-work">Work</a></li>
               <li><a href="about-travis-landry-new.html">About</a></li>
               <li><a href="#contact">Contact</a></li>
+              <a href="javascript:void(0);" class="icon" onclick="menuToggle()"><i class="fas fa-bars"></i></a>
               </ul>
             
         </nav>
         </div>
+         </div>
       </header>
     <main>
       <!-- For the hero section -->
@@ -87,6 +92,8 @@
       <p>Copyright Travis Landry 2020</p>
         </div>
     </footer>
-    <script src="js/scripts.js"></script>
+    <script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/scripts.js"></script>
+      <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
   </body>
 </html>

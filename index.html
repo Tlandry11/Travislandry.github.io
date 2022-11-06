@@ -13,27 +13,37 @@
       <link rel="preconnect" href="https://fonts.googleapis.com"> 
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
 <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500;900&display=swap" rel="stylesheet">
-
+      <script
+			src="https://code.jquery.com/jquery-3.6.1.min.js"
+			integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ="
+			crossorigin="anonymous"></script>
+        <script src="https://code.iconify.design/2/2.1.0/iconify.min.js"></script>
+      <link rel="stylesheet" href=".style.css">
+      <script src="https://kit.fontawesome.com/5b4949294a.js" crossorigin="anonymous"></script>
   </head>
 <body>
     <!-- For the header -->
     <header>
-      <!-- For the navigation -->
-      <div class="container">
+
+<!-- Top Navigation Menu -->
+             <div class="container">
+              <div class="navtoggle" id="mynavtoggle">
     <a href="index.html">
 
     <img src="img/made-by-trav.png" alt="Made by Trav" class="logo"></a>
 
           <nav>
-          <ul class="navigation">
+              <ul class="mainmenu">
               <li><a href="index.html#my-work">Work</a></li>
               <li><a href="about-travis-landry-new.html">About</a></li>
               <li><a href="#contact">Contact</a></li>
+              <li><a href="javascript:void(0);" class="icon" onclick="menuToggle()"><i class="fas fa-bars"></i></a></li>
               </ul>
+              </nav>
+              </div>
+              </div>
             
-        </nav>
-        </div>
-      </header>
+    </header>
     <main>
       <!-- For the hero section -->
       <div id="hero">
@@ -702,6 +712,8 @@
       <p>Copyright Travis Landry 2020</p>
         </div>
     </footer>
-    <script src="js/scripts.js"></script>
+    <script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/scripts.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
     </body>
 </html>
