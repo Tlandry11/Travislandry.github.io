@@ -1,7 +1,6 @@
 header {
-background-color: #000000;
-padding: 10px 0 0px;
-
+  background-color: #000000;
+  padding: 10px 0 0px;
 }
 .logo {
   max-width: 200px;
@@ -9,23 +8,21 @@ padding: 10px 0 0px;
   padding-left: 10px;
 }
 nav> ul > li > a {
-font-family: Roboto, sans-serif;
-color: #ffffff;
-padding: 0 15px;
-text-transform: uppercase;
-font-weight: 700;
-color: #ffffff;
+  font-family: Roboto, sans-serif;
+  color: #ffffff;
+  padding: 0 15px;
+  text-transform: uppercase;
+  font-weight: 700;
 }
 nav > ul {
   list-style-type: none;
   padding: 0;
   margin: 0;
 }
-
 main {
   padding-top: 0px;
-    font-family: Roboto, sans-serif;
-}   
+  font-family: Roboto, sans-serif;
+}
 body {
   background-color:#ffffff;
   font-family: Roboto, sans-serif;
@@ -34,15 +31,14 @@ body {
   color: #000000;
 }
 footer {
-    background-color: #000000;
-    font-family: Roboto, sans-serif;
-    color: #ffffff
+  background-color: #000000;
+  font-family: Roboto, sans-serif;
+  color: #ffffff 
 }
-
 #hero span {
   background-color: #ffe4c4;
-    text-align: center;
-    display: block;
+  text-align: center;
+  display: block;
 }
 #hero h1 {
   margin: 0;
@@ -62,22 +58,18 @@ h1 {
   font-size: 2.75em;
   font-weight: 700;
 }
-
 h2 {
   font-size: 2.25em;
   font-weight: 700;
 }
-
 h3 {
   font-size: 1.75em;
   font-weight: 400;
 }
-
 h4 {
   font-size: 1.35em;
   font-weight: 400;
 }
-
 .button.contact {
   background-color: white;
   border: white;
@@ -88,27 +80,28 @@ h4 {
   display: inline-block;
   font-size: 16px;
 }
-
 .button.contact:hover {
   background-color: #504f50;
   color: #000000;
 }
-
 .button {
-  display: inline-block; /* since the <a> tag is inline by default, we need to change this to inline-block, but more on this in the next exercise */
+  display: inline-block;
+ /* since the <a> tag is inline by default, we need to change this to inline-block, but more on this in the next exercise */
   background-color: #000000;
-  color: #ffffff; /* needed to override the default link color */
+  color: #ffffff;
+ /* needed to override the default link color */
   font-weight: 400;
   padding: 10px;
   border-radius: 3px;
-  border-bottom: 2px solid #504f50; /* width of the border, type, color */
+  border-bottom: 2px solid #504f50;
+ /* width of the border, type, color */
   transition: 0.2s opacity;
 }
 .button:hover {
-  opacity: 0.8; /* Reduces the opacity of the button to 80% */
+  opacity: 0.8;
+ /* Reduces the opacity of the button to 80% */
   text-decoration: none;
 }
-
 .button.resume {
   background-color:#000000;
   border: none;
@@ -118,15 +111,14 @@ h4 {
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
-
- }
+}
 .button.resume:hover {
   background-color: #504f50;
   color: #ffffff;
-}  
+}
 img {
   width: 100%;
-} 
+}
 .row::after {
   content: "";
   clear: both;
@@ -144,93 +136,85 @@ img {
   top: 2px;
   font-size: 20px;
 }
-.navtoggle.responsive li  {
+.navtoggle.responsive li {
   display: block;
   padding: 24px 0 0;
 }
-/* ==============================
-Medium devices (640px and larger)
-================================= */
+/* ============================== Medium devices (640px and larger) ================================= */
 @media only screen and (min-width: 640px) {
-    [class*="col-"] {
-  float: left;
-  padding: 10px;
-}
-
-.col-md-6 {
-  width: 50%;
-    }
-    .logo {
-    max-width: 350px;
-    padding-left: 10px;
+  [class*="col-"] {
+      float: left;
+      padding: 10px;
  }
-    header {
-    text-align: unset;
-    padding: 10px 0 4px;    
-  }
-
+  .col-md-6 {
+      width: 50%;
+ }
+  .logo {
+      max-width: 350px;
+      padding-left: 10px;
+ }
+  header {
+      text-align: unset;
+      padding: 10px 0 4px;
+ }
   nav {
-    width: auto;
-    float: right;
-    margin-top: 4px;
-  }
-
-    nav > ul {
-  margin-top: 1em 0;
-  margin-bottom: 1em 0;
-
-  
+      width: auto;
+      float: right;
+      margin-top: 4px;
+ }
+  nav > ul {
+      margin-top: 1em;
+      margin-bottom: 1em;
+ }
+  nav > ul > li {
+      display: inline-block;
+ }
+  .navtoggle li:not(:last-child) {
+      display: inline-block;
+ }
 }
-nav > ul > li {
-  display: inline-block;
-}
-.navtoggle li:not(:last-child) {
-  display: inline-block;
-}
-}
-/* ==============================
-Large devices (1024px or larger)
-================================= */
+/* ============================== Large devices (1024px or larger) ================================= */
 @media only screen and (min-width: 1024px) {
   .container {
-max-width: 1200px;
-margin-left: auto;
-margin-right: auto;
-}
-.col-lg-5 {
-  width: 40%;
-    }
-    .col-lg-7 {
-  width: 50%;
-    }
+      max-width: 1200px;
+      margin-left: auto;
+      margin-right: auto;
+ }
+  .col-lg-5 {
+      width: 40%;
+ }
+  .col-lg-7 {
+      width: 50%;
+ }
   .navtoggle li:last-child {
-    display: none;
-  }
-
+      display: none;
+ }
 }
-/* ==============================
-X-large devices (1440px or larger)
-================================= */
+/* ============================== X-large devices (1440px or larger) ================================= */
 @media only screen and (min-width: 1440px) {
-    
 }
-/* ==============================
-Extra-large devices (1920px or larger)
-================================= */
+/* ============================== Extra-large devices (1920px or larger) ================================= */
 @media only screen and (min-width: 1920px) {
 }
-/* ==============================
-Medium devices (640px and larger)
-================================= */
+/* ============================== Medium devices (640px and larger) ================================= */
 @keyframes color-change {
-  from {fill: #edc655;}
-  to {fill: #f76414;}
+  from {
+     fill: #edc655;
+ }
+  to {
+     fill: #f76414;
+ }
 }
- 
 @keyframes color-change {
-  0% {fill: #edc655;}
-  50% {fill: #fcffad;}
-  100% {fill: #f76414;}
+  0% {
+     fill: #edc655;
+ }
+  50% {
+     fill: #fcffad;
+ }
+  100% {
+     fill: #f76414;
+ }
 }
 .sun {
   animation-duration: 4s;
@@ -240,8 +224,12 @@ Medium devices (640px and larger)
   animation-timing-function: linear;
 }
 @keyframes cloud-move {
-  from {transform: translate(0,50px);}
-  to {transform: translate(200px,50px);}
+  from {
+     transform: translate(0,50px);
+ }
+  to {
+     transform: translate(200px,50px);
+ }
 }
 .cloud-front {
   animation-duration: 30s;
@@ -251,8 +239,12 @@ Medium devices (640px and larger)
   animation-timing-function: linear;
 }
 @keyframes cloud-move-reverse {
-  from {transform: translate(446px,48px);}
-  to {transform: translate(100px, 48px);}
+  from {
+     transform: translate(446px,48px);
+ }
+  to {
+     transform: translate(100px, 48px);
+ }
 }
 .cloud-back {
   animation: 34s cloud-move-reverse infinite alternate linear;
