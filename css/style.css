@@ -1,3 +1,6 @@
+* {
+  box-sizing: border-box;
+}
 header {
   background-color: #236ec3;
   padding: 10px 0 0px;
@@ -170,9 +173,9 @@ img {
       margin-top: 1em;
       margin-bottom: 1em;
  }
-  nav > ul > li {
-      display: inline-block;
- }
+ .navtoggle li:last-child {
+  display: none;
+}
   .navtoggle li:not(:last-child) {
       display: inline-block;
  }
@@ -189,9 +192,6 @@ img {
  }
   .col-lg-7 {
       width: 50%;
- }
-  .navtoggle li:last-child {
-      display: none;
  }
 }
 /* ============================== X-large devices (1440px or larger) ================================= */
